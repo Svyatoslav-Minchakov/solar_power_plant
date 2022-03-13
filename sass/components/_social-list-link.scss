@@ -1,0 +1,22 @@
+.social-list {
+  display: flex;
+  width: 170px;
+  margin: 0 auto;
+}
+
+.social-list__svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--secondary-color);
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    fill: var(--accent-color);
+  }
+}
+
+.social-list__item:not(:last-child) {
+  margin-right: 20px;
+}

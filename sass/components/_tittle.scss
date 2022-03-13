@@ -1,0 +1,52 @@
+.first-tittle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.357;
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 50px;
+}
+
+.descriptor {
+  font-size: 10px;
+  line-height: 1.388;
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 50px;
+}
+
+.second-tittle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.375;
+  color: var(--four-color);
+}
+
+.third-tittle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.388;
+  color: var(--primery-color);
+}
+
+@media screen and (min-width: 768px) {
+  .descriptor {
+    font-size: 13px;
+  }
+
+  .first-tittle {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1290px) {
+  .first-tittle {
+    font-size: 64px;
+  }
+
+  .descriptor {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+}
