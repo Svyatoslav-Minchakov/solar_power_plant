@@ -1,8 +1,10 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-btn" viewBox="0 0 32 32">
-<path d="M22.626 16.226c0.125-0.125 0.125-0.328 0-0.453l-2.036-2.036c-0.125-0.125-0.328-0.125-0.453 0s-0.125 0.328 0 0.453l1.81 1.81-1.81 1.81c-0.125 0.125-0.125 0.328 0 0.453s0.328 0.125 0.453 0l2.036-2.036zM9.6 16.32h12.8v-0.64h-12.8v0.64z"></path>
-<path fill="none" stroke="#303030" style="stroke: var(--color1, #303030)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" d="M31.68 16c0 8.66-7.020 15.68-15.68 15.68s-15.68-7.020-15.68-15.68c0-8.66 7.020-15.68 15.68-15.68s15.68 7.020 15.68 15.68z"></path>
+<symbol id="icon-right-arrow" viewBox="0 0 164 32">
+<path d="M161.414 17.414c0.781-0.781 0.781-2.047 0-2.828l-12.728-12.728c-0.781-0.781-2.048-0.781-2.828 0s-0.781 2.047 0 2.828l11.314 11.314-11.314 11.314c-0.781 0.781-0.781 2.047 0 2.828s2.047 0.781 2.828 0l12.728-12.728zM0 18h160v-4h-160v4z"></path>
+</symbol>
+<symbol id="icon-left-arrow" viewBox="0 0 164 32">
+<path d="M2.586 14.586c-0.781 0.781-0.781 2.047 0 2.828l12.728 12.728c0.781 0.781 2.047 0.781 2.828 0s0.781-2.047 0-2.828l-11.314-11.314 11.314-11.314c0.781-0.781 0.781-2.047 0-2.828s-2.047-0.781-2.828 0l-12.728 12.728zM164 14h-160v4h160v-4z"></path>
 </symbol>
 </defs>
 </svg>

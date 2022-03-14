@@ -6,21 +6,23 @@
 
 .services__right-side {
   margin: 0 auto;
+  // max-width: 350px;
 }
 
-.services__text {
+.text {
   font-size: 14px;
   line-height: 1.357;
   color: var(--primery-color);
 }
 
-.services__text {
+.text {
   margin-bottom: 30px;
 }
 
 .services__img {
-  max-width: 350px;
-  margin: 0 auto;
+  max-width: 418px;
+  width: 100%;
+  // margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -48,7 +50,7 @@
       margin-bottom: 15px;
     }
 
-    .services__text {
+    .text {
       margin-bottom: 50px;
     }
   }
