@@ -35,11 +35,12 @@
   }
 }
 
-@media screen and (min-width: 1290px) {
+@media screen and (min-width: 1200px) {
   .services {
     .container {
       display: flex;
       padding-top: 150px;
+      max-width: 1200px;
     }
 
     .second-tittle {
@@ -61,6 +62,7 @@
 
   .services__right-side {
     padding-top: 93px;
+    margin-right: 0;
   }
 
   .margin-bottom_0 {
