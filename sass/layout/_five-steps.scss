@@ -1,0 +1,65 @@
+.five-steps {
+  .container {
+    padding-top: 0;
+  }
+}
+
+.five-steps__list-number {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--four-color);
+}
+
+.five-steps__img {
+  margin: 0 auto;
+  max-width: 418px;
+  width: 100%;
+}
+
+@media screen and (min-width: 530px) {
+  .five-steps {
+    .container {
+      max-width: 530px;
+    }
+  }
+
+  .five-steps__img {
+    max-width: 510px;
+  }
+}
+
+@media screen and (min-width: 930px) {
+  .five-steps {
+    .container {
+      max-width: 930px;
+      display: flex;
+    }
+  }
+
+  .five-steps__list {
+    max-width: 510px;
+    width: 100%;
+    padding-right: 50px;
+  }
+
+  .five-steps__right-side {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .five-steps {
+    .container {
+      max-width: 1200px;
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+
+  .five-steps__right-side {
+    padding-top: 60px;
+  }
+}

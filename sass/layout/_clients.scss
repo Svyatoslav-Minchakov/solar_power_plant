@@ -6,7 +6,6 @@
     background-size: cover;
     display: block;
     margin: 0 auto;
-    margin-bottom: 70px;
 
     &:hover,
     &:focus,
@@ -85,6 +84,7 @@
     .container {
       display: flex;
       max-width: 930px;
+      justify-content: space-between;
     }
 
     .text {
@@ -94,11 +94,18 @@
     .hero__link {
       margin-left: 0;
     }
+
+    .third-tittle {
+      margin-bottom: 20px;
+    }
+
+    .text:not(:last-child) {
+      margin-bottom: 3px;
+    }
   }
 
   .clients__lift-side {
     max-width: 360px;
-    margin-right: 50px;
   }
 
   .client__right-side {
@@ -107,5 +114,53 @@
 
   .clients__text {
     margin-bottom: 0;
+  }
+
+  .clients__text {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients {
+    .container {
+      max-width: 1200px;
+    }
+
+    .third-tittle {
+      margin-left: 0;
+    }
+
+    .text:not(:last-child) {
+      margin-bottom: 15px;
+    }
+
+    .hero__link {
+      width: 306px;
+      height: 100px;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &:visited {
+        width: 306px;
+        height: 100px;
+      }
+    }
+  }
+
+  .clients__lift-side {
+    max-width: 510px;
+    margin-right: 90px;
+  }
+
+  .client__right-side {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .clients__text {
+    margin-left: 50px;
+    margin-bottom: 45px;
   }
 }

@@ -1,0 +1,24 @@
+.form-and-contacts {
+  .second-tittle {
+    margin-bottom: 60px;
+    color: var(--secondary-color);
+  }
+}
+
+.form-and-contacts {
+  background-image: url("../../images/form-and-contacts/form-and-contacts_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-form__form {
+  display: block;
+}
+
+.contact-form__input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+  display: block;
+  margin-bottom: 60px;
+}
