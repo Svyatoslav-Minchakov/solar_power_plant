@@ -1,8 +1,19 @@
 .form-and-contacts {
   .second-tittle {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     color: var(--secondary-color);
   }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+  }
+}
+
+.contact-form {
+  width: 100%;
+  margin-bottom: 100px;
 }
 
 .form-and-contacts {
@@ -20,5 +31,107 @@
   border: none;
   border-bottom: 1px solid var(--secondary-color);
   display: block;
+  height: 40px;
   margin-bottom: 60px;
+  width: 100%;
+
+  color: var(--secondary-color);
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 1.357;
+    margin-bottom: 11px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid var(--accent-color);
+
+    &::placeholder {
+      color: var(--accent-color);
+    }
+  }
+}
+
+.contact-form__btn {
+  width: 200px;
+  height: 100px;
+  background-color: transparent;
+  background-image: url("../images/contacts-and-form/form-and-contacts_btn.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+
+  &:hover,
+  &:focus,
+  &:visited,
+  &:checked {
+    background-image: url("../images/contacts-and-form/form-and-contacts_btn-hover.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    outline: none;
+  }
+}
+
+.contact-information {
+  .text {
+    color: var(--secondary-color);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form-and-contacts {
+    .container {
+      justify-content: space-between;
+      padding-bottom: 100px;
+    }
+  }
+
+  .contact-form {
+    max-width: 330px;
+    margin-bottom: 0;
+  }
+
+  .contact-information {
+    max-width: 330px;
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 930px) {
+  .form-and-contacts {
+    .container {
+      max-width: 930px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form-and-contacts {
+    .container {
+      max-width: 1200px;
+      justify-content: start;
+    }
+
+    .second-tittle {
+      margin-bottom: 60px;
+    }
+  }
+
+  .contact-form {
+    max-width: 510px;
+    width: 100%;
+    margin-right: 100px;
+  }
+
+  .contact-information {
+    max-width: 510px;
+    width: 100%;
+  }
+
+  .contact-information_text {
+    display: block;
+  }
 }

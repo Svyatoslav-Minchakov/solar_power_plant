@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Solar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,7 +24,7 @@
 
                 <p class="hero__text">с доходом от 1000 $ в месяц</p>
 
-                <a href="" class="hero__link"></a>
+                <a  href="#check-in" class="hero__link"></a>
 
                 <ul class="social-list">
                     <li class="social-list__item">
@@ -215,7 +215,7 @@
                         <p class="text">Смонтирована: апрель 2017 г.</p>
                         <p class="text">Срок службы: 25-30 лет</p>
                     </div>
-                    <a href="" class="hero__link"></a>.
+                    <a href="#check-in" class="hero__link"></a>.
                 </div>
             </div>
         </section>
@@ -279,21 +279,84 @@
             </div>
         </section>
 
-        <section class="form-and-contacts">
+        <section id="check-in" class="form-and-contacts">
             <div class="container">
-                <div class="contact-form">
+                <div  class="contact-form">
                     <h2 class="second-tittle">ОСТАВИТЬ ЗАЯВКУ</h2>
                     <form action="#" class="contact-form__form">
                         <input class="contact-form__input" type="text" placeholder="Имя">
                         <input class="contact-form__input" type="tel" placeholder="Телефон">
-                        <button type="submit"></button>
+                        <button  class="contact-form__btn" type="submit"></button>
                     </form>
                 </div>
-                <div class="contact-information"></div>
+                <div class="contact-information">
+                    <h2 class="second-tittle">КОНТАКТЫ</h2>
+                    <p class="text">
+                        <span class="contact-information_text">Центральный офис:</span>
+                        <span class="contact-information_text">г. Москва, ул,Гоголя 13, 1й этаж</span>
+                    </p>
+                    <p class="text">
+                        <span class="contact-information_text">Представительство в Киеве:</span>
+                       <span class="contact-information_text">г. Киев, ул. Є. Коновальця, 103 оф. 410</span>
+                    
+                    </p>
+                    <p class="text">
+                        Представительства в Харькове,
+                        Одессе, Ростове, Сочи, Белгороде
+                    </p>
+                    <p class="text">
+                        <span class="contact-information_text">+7 987 654-54-56</span>
+                       <span class="contact-information_text">+38 067 504-32-57</span>
+                    </p>
+                    <p class="text">
+                        Ежедневно <time>08:00 - 20:00</time>
+                    </p>
+                </div>
             </div>
+            <section class="footer">
+                <div class="container">
+                    <p class="footer-text">
+                        Политика конфиденциальности
+                    </p>
+                    <svg class="logo">
+                        <use href="./images/symbol-defs.svg#icon-logo"></use>
+                    </svg>
+                    <ul class="social-list">
+                        <li class="social-list__item">
+                            <a href="" class="social-list__link">
+                                <svg class="social-list__svg">
+                                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="" class="social-list__link">
+                                <svg class="social-list__svg">
+                                    <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="" class="social-list__link">
+                                <svg class="social-list__svg">
+                                    <use href="./images/symbol-defs.svg#icon-whatsapp"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="" class="social-list__link">
+                                <svg class="social-list__svg">
+                                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </section>
         </section>
     </main>
 
-        <div class="footer"></div>
+       
 </body>
 </html>

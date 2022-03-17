@@ -613,8 +613,19 @@ body {
 }
 
 .form-and-contacts .second-tittle {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   color: var(--secondary-color);
+}
+
+.form-and-contacts .container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+.contact-form {
+  width: 100%;
+  margin-bottom: 100px;
 }
 
 .form-and-contacts {
@@ -632,6 +643,128 @@ body {
   border: none;
   border-bottom: 1px solid var(--secondary-color);
   display: block;
+  height: 40px;
   margin-bottom: 60px;
+  width: 100%;
+  color: var(--secondary-color);
+}
+
+.contact-form__input::placeholder {
+  font-size: 14px;
+  line-height: 1.357;
+  margin-bottom: 11px;
+  color: white;
+}
+
+.contact-form__input:focus {
+  outline: none;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.contact-form__input:focus::placeholder {
+  color: var(--accent-color);
+}
+
+.contact-form__btn {
+  width: 200px;
+  height: 100px;
+  background-color: transparent;
+  background-image: url("../images/contacts-and-form/form-and-contacts_btn.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.contact-form__btn:hover, .contact-form__btn:focus, .contact-form__btn:visited, .contact-form__btn:checked {
+  background-image: url("../images/contacts-and-form/form-and-contacts_btn-hover.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  outline: none;
+}
+
+.contact-information .text {
+  color: var(--secondary-color);
+}
+
+@media screen and (min-width: 768px) {
+  .form-and-contacts .container {
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+  .contact-form {
+    max-width: 330px;
+    margin-bottom: 0;
+  }
+  .contact-information {
+    max-width: 330px;
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 930px) {
+  .form-and-contacts .container {
+    max-width: 930px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form-and-contacts .container {
+    max-width: 1200px;
+    justify-content: start;
+  }
+  .form-and-contacts .second-tittle {
+    margin-bottom: 60px;
+  }
+  .contact-form {
+    max-width: 510px;
+    width: 100%;
+    margin-right: 100px;
+  }
+  .contact-information {
+    max-width: 510px;
+    width: 100%;
+  }
+  .contact-information_text {
+    display: block;
+  }
+}
+
+.footer {
+  width: 100%;
+  background-color: transparent;
+}
+
+.footer .container {
+  display: block;
+  padding-top: 0;
+  align-self: center;
+}
+
+.footer-text {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.142;
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer .container {
+    display: flex;
+  }
+  .footer .social-list {
+    margin: 0;
+  }
+  .footer .logo {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    justify-content: space-between;
+  }
 }
 /*# sourceMappingURL=main.css.map */

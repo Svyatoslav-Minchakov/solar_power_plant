@@ -1,0 +1,42 @@
+.footer {
+  width: 100%;
+  background-color: transparent;
+  .container {
+    display: block;
+    padding-top: 0;
+    align-self: center;
+  }
+}
+
+.footer-text {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.142;
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    .container {
+      display: flex;
+    }
+
+    .social-list {
+      margin: 0;
+    }
+
+    .logo {
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    .container {
+      justify-content: space-between;
+    }
+  }
+}
